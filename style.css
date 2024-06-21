@@ -15,6 +15,23 @@ html {
   padding: 0;
 }
 
+.credit-data {
+  font-size: 15px;
+  color: #808080;
+}
+
+h3 {
+  display: block;
+  font-size: 1.17em;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+  unicode-bidi: isolate;
+  color: rgb(54, 162, 235);
+}
+
 #map {
   height: 100%;
   width: 100%;
@@ -30,7 +47,7 @@ html {
   position: absolute;
   top: 90px;
   left: 10px;
-  background: rgba(255, 255, 255, 0.8);
+  background: rgba(255, 255, 255, 0.9);
   padding: 10px;
   border: 2px solid black;
   z-index: 1000;
